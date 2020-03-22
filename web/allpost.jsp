@@ -24,7 +24,7 @@
              <th>image</th>
              <th></th>
          </tr>
-         <c:forEach item = "${allpost}" var="p">
+         <c:forEach item="${allpost}" var="p">
          <tr>
              <td>${p.id}</td>
              <td>${p.title}</td>
