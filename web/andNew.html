@@ -6,33 +6,37 @@
 </head>
 <body>
     <h1>Add new</h1>
-    <form action="JSP/MangerAddNew.jsp" method="post">
-        Title: <br>
-        <label for="Title">
-            <input type="text" name="title" style="width: 200px">
-        </label>
+    <div style="width: 900px;margin-left:auto;margin-right: auto ">
+        <form action="JSP/MangerAddNew.jsp" method="post">
+            Title: <br>
+            <label for="Title">
+                <input type="text" name="title" style="width: 200px"> <br>
+            </label>
             Description: <br>
-        <label>
-             <input type="text" name="title" style="width: 200px">
-        </label>
+            <label>
+                <input type="text" name="title" style="width: 200px"> <br>
+            </label>
             Details: <br>
-        <label>
-            <textarea name="detail"  cols="30" rows="10"></textarea>
-        </label>
-        <label for="category">
-            <select name="category" id="">
-                <option value="world">World</option>
-                <option value="tech">Tech</option>
-                <option value="sport">sport</option>
-            </select>
-        </label>
-        <br>
-        Image : <br>
-        <label for="image">
-            <input type="text" name="image" style="width: 200px">
-        </label>
-        <input type="submit" value="submit">
-    </form>
+            <label>
+                <textarea name="detail"  cols="30" rows="10"></textarea> <br>
+            </label>
+            <label for="category">
+                <select name="category" id="">
+                    <option value="world">World</option>
+                    <option value="tech">Tech</option>
+                    <option value="sport">sport</option>
+                </select>
+            </label>
+            <br>
+            Image : <br>
+            <label for="image">
+                <input type="text" name="image" style="width: 200px">
+            </label>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+
 
 </body>
 </html>
