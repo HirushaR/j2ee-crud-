@@ -28,7 +28,7 @@
         dataAccess da = new dataAccess();
         da.addNew(n);
 
-        response.sendRedirect("/first/allpost");
+        response.sendRedirect("allpost");
 
     %>
 </body>

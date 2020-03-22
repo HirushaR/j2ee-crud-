@@ -11,6 +11,7 @@
     <title>ecommerce</title>
   </head>
   <body>
-  hello world
+
+  <a href="allpost.jsp">asdasd</a>
   </body>
 </html>
